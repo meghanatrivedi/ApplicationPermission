@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020F8F9D34591354400B7569A01F6247 /* SPRequestPermissionLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13986A71B0F1E10C34FDD859B6A0E3CF /* SPRequestPermissionLocationHandler.swift */; };
+		05ED4E712F8C3F13D3E3F53516890E6A /* SPPermissionStyleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9BF491A2CA725B475B1B9C8115AA4 /* SPPermissionStyleAnimation.swift */; };
+		0746A588F7634599DB8769CFC24CB0A7 /* SPPermissionDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857CA9F370504F875D63EBF36578F34 /* SPPermissionDialogView.swift */; };
+		0B08B55293D8EDDE6738E9AC764C5CFC /* SPPermissionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D1C195CAF7D1B4591E3778C1C64B1 /* SPPermissionIconView.swift */; };
+		0CC06AAE66DF334E16C2EDA109373BD5 /* SPPermissionDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6F1710BFD2744D35F331E814E6C0F6 /* SPPermissionDialogController.swift */; };
+		0EA86D9F5FF39F00A817213703B3A80B /* SPPermissionCloseIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A24E9D8A6CA179651EFA70875C1BD /* SPPermissionCloseIconView.swift */; };
+		0EE4F96CA0E36B56EEC978D276E06271 /* SPPermissionLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5ED094E573EDD34622793E980DA7 /* SPPermissionLocation.swift */; };
+		1055380E3B395B821B037C3A5C677D2C /* SPPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DCBAB05B6462886F8F87B195DD7EAE /* SPPermission.swift */; };
+		2EB627F2FE3E74F0CB8B24F9A785ED91 /* Pods-ApplicationPermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A294C5EA2EFA4792E524FB9CA5459E /* Pods-ApplicationPermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA2022E5E6607DF535DD7BACFD5BE47 /* SPPermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E5F5DE0A488656EDB7D30BDF1E94B /* SPPermission-dummy.m */; };
+		36089278CC50F895727D38A1C5E3F3D4 /* Pods-ApplicationPermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E262844C6CFB6EFC11353ABD9E0BD4 /* Pods-ApplicationPermission-dummy.m */; };
+		37DA9A058794FD10BF5CB05B6413D9AA /* SPPermissionPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046204613620867D2E28B46E375EA63C /* SPPermissionPhotoLibrary.swift */; };
+		3B030E9B46EBDA5F0A4311209E5A7BB1 /* SPPermissionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32434A3BD939CE333D86B6A778E1124 /* SPPermissionDialog.swift */; };
+		45752AEE382E98A9FB0735D7139175E6 /* SPPermissionContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B6FFDE669E175455F6B6D4B807DBF /* SPPermissionContacts.swift */; };
+		5B1FAD93AEAC0AB34DD353195F7D90F5 /* SPPermissionMicrophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A678720C7006DA748332A341867E237 /* SPPermissionMicrophone.swift */; };
+		65272C473574C6CCA1612BD6DD0C44B7 /* SPPermissionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB26CDDA0B94071D3AEECA96DBC5D9B7 /* SPPermissionStyle.swift */; };
+		67DD6389194569E92DBE747B79427EA9 /* SPPermissionCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90747FE4A8B77078A0066CCA03F665CF /* SPPermissionCalendar.swift */; };
+		6B2DA96CA3EF49361F8DFD8DE1985C7C /* SPPermissionNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE6C3D4F9EA9A3377C881B8536BEA7 /* SPPermissionNotification.swift */; };
+		75F5C86EDD7B66CFD022246DC2410080 /* SPPermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B18F726E9EE1653510AC90E8972AB5 /* SPPermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F198B7BCB6CAEB87BEC7A4BA733134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		8AF12C32F4DD46A13D531F9506388344 /* SPPermissionBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DCEA84EA4F07EF567397BE418E2D8 /* SPPermissionBlurView.swift */; };
+		991AF7634337EADD2767295012C78EA6 /* SPPermissionReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA1361B64123F732BE6D0A5E09806B0 /* SPPermissionReminders.swift */; };
+		9A2ACEBAED2914670CBCE0AA19EFA7DB /* SPPermissionStyleDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD3565E34E1A1CAEA4891D7EF9B3DC /* SPPermissionStyleDelay.swift */; };
+		B08C385A8606A64B603878F95BD03D96 /* SPPermissionStyleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591CD2C436B2B38375AF7BBB306FC21C /* SPPermissionStyleColors.swift */; };
+		B6C56D0DD7CED51E89A0611411834D2C /* SPPermissionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DF932C9038A45F8CEB893F4B9C58E /* SPPermissionType.swift */; };
+		B74E8A7D428FD755F30E544DCABA5199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B77566E59C5AA7BAC9D698B6207624FB /* SPPermissionStyleShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9CE86B7E66CFE97A414B22014EF512 /* SPPermissionStyleShadow.swift */; };
+		BAED7F7EE942762F6519E3DAF3CAE2D7 /* SPPermissionCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F629F6C61A3DD9AE3AE915DFA3C3761 /* SPPermissionCloseButton.swift */; };
+		C1B792DDC2A498BD6144346A1E619FB2 /* SPPermissionMediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BC91D88497F6DD0DEAF9EBA1D64F0 /* SPPermissionMediaLibrary.swift */; };
+		C2E2106F5019BC1BCBCE46733CD8C13B /* SPPermissionDrawPermissionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49007089A6D37BC285B7F70951B0DD7 /* SPPermissionDrawPermissionPack.swift */; };
+		C7D1DA28BAAC693CAD0B6AADCB934EBA /* SPPermissionStyleOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E23D99E707ED5BB3534D1FC5429ABE /* SPPermissionStyleOrientation.swift */; };
+		D3213087BB38EFD69AE857902C2AFFC4 /* SPPermissionCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EC0D97B7D2BE83EB45CA8B3CDD0BF /* SPPermissionCamera.swift */; };
+		D3651757505BD0FC67BD2227E241A58E /* SPPermissionMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887445AE2F62FCF74065A35C935AFB /* SPPermissionMotion.swift */; };
+		D3C22172844618D0825BA664681B9A3A /* SPPermissionDrawIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD31261FA327E6F2955BEF36BABBE50 /* SPPermissionDrawIconPack.swift */; };
+		E2158DBB1BA9F0A770E37C804C654022 /* SPPermissionActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8879FB46FBC3DD3491B733D4EED7943 /* SPPermissionActionButton.swift */; };
+		E3E805008D9B611D745F2EB4DD59C124 /* SPPermissionDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC345EEB1256B1C41B739BAFD264A3 /* SPPermissionDraw.swift */; };
+		F18D06AE9BAD85A9709618B48B1D954F /* SPPermissionSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA678BD766CC49FA16F86B10BCCE0C /* SPPermissionSpeech.swift */; };
+		F794FD784506CE291B6015E1BE4FD259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8F1E9A2B79A89C06C2BCF3D87BAF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3298F3CA0DE482AFE70B9293215F6109;
+			remoteInfo = SPPermission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046204613620867D2E28B46E375EA63C /* SPPermissionPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionPhotoLibrary.swift; path = Source/SPPermission/Permissions/SPPermissionPhotoLibrary.swift; sourceTree = "<group>"; };
+		049E5F5DE0A488656EDB7D30BDF1E94B /* SPPermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPPermission-dummy.m"; sourceTree = "<group>"; };
+		05EE6C3D4F9EA9A3377C881B8536BEA7 /* SPPermissionNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionNotification.swift; path = Source/SPPermission/Permissions/SPPermissionNotification.swift; sourceTree = "<group>"; };
+		06F9BF491A2CA725B475B1B9C8115AA4 /* SPPermissionStyleAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyleAnimation.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyleAnimation.swift; sourceTree = "<group>"; };
+		12E23D99E707ED5BB3534D1FC5429ABE /* SPPermissionStyleOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyleOrientation.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyleOrientation.swift; sourceTree = "<group>"; };
+		13986A71B0F1E10C34FDD859B6A0E3CF /* SPRequestPermissionLocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionLocationHandler.swift; path = Source/SPPermission/Handlers/SPRequestPermissionLocationHandler.swift; sourceTree = "<group>"; };
+		180164A4BE6FBEC54C4892F93C0709C0 /* Pods-ApplicationPermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApplicationPermission.modulemap"; sourceTree = "<group>"; };
+		1CA150152E201222806ADE6BA6EFEB73 /* SPPermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPPermission-Info.plist"; sourceTree = "<group>"; };
+		26DF5ED094E573EDD34622793E980DA7 /* SPPermissionLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionLocation.swift; path = Source/SPPermission/Permissions/SPPermissionLocation.swift; sourceTree = "<group>"; };
+		2A9BC91D88497F6DD0DEAF9EBA1D64F0 /* SPPermissionMediaLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionMediaLibrary.swift; path = Source/SPPermission/Permissions/SPPermissionMediaLibrary.swift; sourceTree = "<group>"; };
+		2C887445AE2F62FCF74065A35C935AFB /* SPPermissionMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionMotion.swift; path = Source/SPPermission/Permissions/SPPermissionMotion.swift; sourceTree = "<group>"; };
+		2C9CE86B7E66CFE97A414B22014EF512 /* SPPermissionStyleShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyleShadow.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyleShadow.swift; sourceTree = "<group>"; };
+		2F6F47F97C6FC2385B0BE91901B9988E /* Pods-ApplicationPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplicationPermission.debug.xcconfig"; sourceTree = "<group>"; };
+		40B18F726E9EE1653510AC90E8972AB5 /* SPPermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPPermission-umbrella.h"; sourceTree = "<group>"; };
+		4A678720C7006DA748332A341867E237 /* SPPermissionMicrophone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionMicrophone.swift; path = Source/SPPermission/Permissions/SPPermissionMicrophone.swift; sourceTree = "<group>"; };
+		4C963DAE1782544AE814B49B5B983D4E /* Pods_ApplicationPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ApplicationPermission.framework; path = "Pods-ApplicationPermission.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BA678BD766CC49FA16F86B10BCCE0C /* SPPermissionSpeech.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionSpeech.swift; path = Source/SPPermission/Permissions/SPPermissionSpeech.swift; sourceTree = "<group>"; };
+		591CD2C436B2B38375AF7BBB306FC21C /* SPPermissionStyleColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyleColors.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyleColors.swift; sourceTree = "<group>"; };
+		5A6F1710BFD2744D35F331E814E6C0F6 /* SPPermissionDialogController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDialogController.swift; path = Source/SPPermission/Dialog/Controllers/SPPermissionDialogController.swift; sourceTree = "<group>"; };
+		5FA1361B64123F732BE6D0A5E09806B0 /* SPPermissionReminders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionReminders.swift; path = Source/SPPermission/Permissions/SPPermissionReminders.swift; sourceTree = "<group>"; };
+		62E262844C6CFB6EFC11353ABD9E0BD4 /* Pods-ApplicationPermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApplicationPermission-dummy.m"; sourceTree = "<group>"; };
+		678A24E9D8A6CA179651EFA70875C1BD /* SPPermissionCloseIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionCloseIconView.swift; path = Source/SPPermission/Dialog/Views/SPPermissionCloseIconView.swift; sourceTree = "<group>"; };
+		6B8D1C195CAF7D1B4591E3778C1C64B1 /* SPPermissionIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionIconView.swift; path = Source/SPPermission/Dialog/Views/SPPermissionIconView.swift; sourceTree = "<group>"; };
+		6F629F6C61A3DD9AE3AE915DFA3C3761 /* SPPermissionCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionCloseButton.swift; path = Source/SPPermission/Dialog/Views/SPPermissionCloseButton.swift; sourceTree = "<group>"; };
+		899DCEA84EA4F07EF567397BE418E2D8 /* SPPermissionBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionBlurView.swift; path = Source/SPPermission/Dialog/Views/SPPermissionBlurView.swift; sourceTree = "<group>"; };
+		8DD31261FA327E6F2955BEF36BABBE50 /* SPPermissionDrawIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDrawIconPack.swift; path = Source/SPPermission/Dialog/Draw/SPPermissionDrawIconPack.swift; sourceTree = "<group>"; };
+		90747FE4A8B77078A0066CCA03F665CF /* SPPermissionCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionCalendar.swift; path = Source/SPPermission/Permissions/SPPermissionCalendar.swift; sourceTree = "<group>"; };
+		949B3845ABC133EA64E15A885CE93794 /* SPPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPPermission.debug.xcconfig; sourceTree = "<group>"; };
+		951B6FFDE669E175455F6B6D4B807DBF /* SPPermissionContacts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionContacts.swift; path = Source/SPPermission/Permissions/SPPermissionContacts.swift; sourceTree = "<group>"; };
+		9D7E6770F490335D0C4EA33EBF42CEBB /* SPPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPPermission.framework; path = SPPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2EC0D97B7D2BE83EB45CA8B3CDD0BF /* SPPermissionCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionCamera.swift; path = Source/SPPermission/Permissions/SPPermissionCamera.swift; sourceTree = "<group>"; };
+		9EEE37CA639055C8C0E4DF351CC7DA9E /* Pods-ApplicationPermission-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ApplicationPermission-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A23DD3E0A152651A52F0502A49B32EB2 /* Pods-ApplicationPermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplicationPermission-Info.plist"; sourceTree = "<group>"; };
+		A5F297E8DF52D3038DB222CA40161B87 /* Pods-ApplicationPermission-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplicationPermission-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AD3565E34E1A1CAEA4891D7EF9B3DC /* SPPermissionStyleDelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyleDelay.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyleDelay.swift; sourceTree = "<group>"; };
+		B2B2C17B3685812652362F2725E06383 /* SPPermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPPermission.release.xcconfig; sourceTree = "<group>"; };
+		B39311086372E128A6014A0D3ADA9FDA /* SPPermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPPermission.modulemap; sourceTree = "<group>"; };
+		B49007089A6D37BC285B7F70951B0DD7 /* SPPermissionDrawPermissionPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDrawPermissionPack.swift; path = Source/SPPermission/Dialog/Draw/SPPermissionDrawPermissionPack.swift; sourceTree = "<group>"; };
+		B50410DE2E82A7D95CC5E68632BDECF7 /* SPPermission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPPermission-prefix.pch"; sourceTree = "<group>"; };
+		BB26CDDA0B94071D3AEECA96DBC5D9B7 /* SPPermissionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionStyle.swift; path = Source/SPPermission/Dialog/Style/SPPermissionStyle.swift; sourceTree = "<group>"; };
+		C7A294C5EA2EFA4792E524FB9CA5459E /* Pods-ApplicationPermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApplicationPermission-umbrella.h"; sourceTree = "<group>"; };
+		C836F7E6569D7E2C3E73184435375B8F /* Pods-ApplicationPermission-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApplicationPermission-frameworks.sh"; sourceTree = "<group>"; };
+		C8CC345EEB1256B1C41B739BAFD264A3 /* SPPermissionDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDraw.swift; path = Source/SPPermission/Dialog/Draw/SPPermissionDraw.swift; sourceTree = "<group>"; };
+		CAA3521354DFDE56D0D8667FD4E84113 /* Pods-ApplicationPermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplicationPermission.release.xcconfig"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D61DF932C9038A45F8CEB893F4B9C58E /* SPPermissionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionType.swift; path = Source/SPPermission/SPPermissionType.swift; sourceTree = "<group>"; };
+		D857CA9F370504F875D63EBF36578F34 /* SPPermissionDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDialogView.swift; path = Source/SPPermission/Dialog/Views/SPPermissionDialogView.swift; sourceTree = "<group>"; };
+		E8879FB46FBC3DD3491B733D4EED7943 /* SPPermissionActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionActionButton.swift; path = Source/SPPermission/Dialog/Views/SPPermissionActionButton.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2DCBAB05B6462886F8F87B195DD7EAE /* SPPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermission.swift; path = Source/SPPermission/SPPermission.swift; sourceTree = "<group>"; };
+		F32434A3BD939CE333D86B6A778E1124 /* SPPermissionDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionDialog.swift; path = Source/SPPermission/Dialog/SPPermissionDialog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B70D4656D8E2F8946A08EBD71B44F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F794FD784506CE291B6015E1BE4FD259 /* Foundation.framework in Frameworks */,
+				82F198B7BCB6CAEB87BEC7A4BA733134 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4496F2A536E5E869305CE6D18ADF7F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74E8A7D428FD755F30E544DCABA5199 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098CEA25DF6E75E4ED7784DA65D8A392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C963DAE1782544AE814B49B5B983D4E /* Pods_ApplicationPermission.framework */,
+				9D7E6770F490335D0C4EA33EBF42CEBB /* SPPermission.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B435B60F56240777FD2AE85CF40C385 /* Pods-ApplicationPermission */ = {
+			isa = PBXGroup;
+			children = (
+				180164A4BE6FBEC54C4892F93C0709C0 /* Pods-ApplicationPermission.modulemap */,
+				9EEE37CA639055C8C0E4DF351CC7DA9E /* Pods-ApplicationPermission-acknowledgements.markdown */,
+				A5F297E8DF52D3038DB222CA40161B87 /* Pods-ApplicationPermission-acknowledgements.plist */,
+				62E262844C6CFB6EFC11353ABD9E0BD4 /* Pods-ApplicationPermission-dummy.m */,
+				C836F7E6569D7E2C3E73184435375B8F /* Pods-ApplicationPermission-frameworks.sh */,
+				A23DD3E0A152651A52F0502A49B32EB2 /* Pods-ApplicationPermission-Info.plist */,
+				C7A294C5EA2EFA4792E524FB9CA5459E /* Pods-ApplicationPermission-umbrella.h */,
+				2F6F47F97C6FC2385B0BE91901B9988E /* Pods-ApplicationPermission.debug.xcconfig */,
+				CAA3521354DFDE56D0D8667FD4E84113 /* Pods-ApplicationPermission.release.xcconfig */,
+			);
+			name = "Pods-ApplicationPermission";
+			path = "Target Support Files/Pods-ApplicationPermission";
+			sourceTree = "<group>";
+		};
+		0DF58821748AB58E47F3B4E05642EE89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B435B60F56240777FD2AE85CF40C385 /* Pods-ApplicationPermission */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		13B74273BEB7362E7D3DA459EE352FE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39311086372E128A6014A0D3ADA9FDA /* SPPermission.modulemap */,
+				049E5F5DE0A488656EDB7D30BDF1E94B /* SPPermission-dummy.m */,
+				1CA150152E201222806ADE6BA6EFEB73 /* SPPermission-Info.plist */,
+				B50410DE2E82A7D95CC5E68632BDECF7 /* SPPermission-prefix.pch */,
+				40B18F726E9EE1653510AC90E8972AB5 /* SPPermission-umbrella.h */,
+				949B3845ABC133EA64E15A885CE93794 /* SPPermission.debug.xcconfig */,
+				B2B2C17B3685812652362F2725E06383 /* SPPermission.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPPermission";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		385C89EB7E38F769C7E0C30D9B94FF95 /* SPPermission */ = {
+			isa = PBXGroup;
+			children = (
+				B1E06D65D6A318CD22E3B047668161F6 /* Core */,
+				13B74273BEB7362E7D3DA459EE352FE2 /* Support Files */,
+			);
+			name = SPPermission;
+			path = SPPermission;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72BB020FCDCFEA8567C0111297A0F27F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				385C89EB7E38F769C7E0C30D9B94FF95 /* SPPermission */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E06D65D6A318CD22E3B047668161F6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCBAB05B6462886F8F87B195DD7EAE /* SPPermission.swift */,
+				E8879FB46FBC3DD3491B733D4EED7943 /* SPPermissionActionButton.swift */,
+				899DCEA84EA4F07EF567397BE418E2D8 /* SPPermissionBlurView.swift */,
+				90747FE4A8B77078A0066CCA03F665CF /* SPPermissionCalendar.swift */,
+				9E2EC0D97B7D2BE83EB45CA8B3CDD0BF /* SPPermissionCamera.swift */,
+				6F629F6C61A3DD9AE3AE915DFA3C3761 /* SPPermissionCloseButton.swift */,
+				678A24E9D8A6CA179651EFA70875C1BD /* SPPermissionCloseIconView.swift */,
+				951B6FFDE669E175455F6B6D4B807DBF /* SPPermissionContacts.swift */,
+				F32434A3BD939CE333D86B6A778E1124 /* SPPermissionDialog.swift */,
+				5A6F1710BFD2744D35F331E814E6C0F6 /* SPPermissionDialogController.swift */,
+				D857CA9F370504F875D63EBF36578F34 /* SPPermissionDialogView.swift */,
+				C8CC345EEB1256B1C41B739BAFD264A3 /* SPPermissionDraw.swift */,
+				8DD31261FA327E6F2955BEF36BABBE50 /* SPPermissionDrawIconPack.swift */,
+				B49007089A6D37BC285B7F70951B0DD7 /* SPPermissionDrawPermissionPack.swift */,
+				6B8D1C195CAF7D1B4591E3778C1C64B1 /* SPPermissionIconView.swift */,
+				26DF5ED094E573EDD34622793E980DA7 /* SPPermissionLocation.swift */,
+				2A9BC91D88497F6DD0DEAF9EBA1D64F0 /* SPPermissionMediaLibrary.swift */,
+				4A678720C7006DA748332A341867E237 /* SPPermissionMicrophone.swift */,
+				2C887445AE2F62FCF74065A35C935AFB /* SPPermissionMotion.swift */,
+				05EE6C3D4F9EA9A3377C881B8536BEA7 /* SPPermissionNotification.swift */,
+				046204613620867D2E28B46E375EA63C /* SPPermissionPhotoLibrary.swift */,
+				5FA1361B64123F732BE6D0A5E09806B0 /* SPPermissionReminders.swift */,
+				54BA678BD766CC49FA16F86B10BCCE0C /* SPPermissionSpeech.swift */,
+				BB26CDDA0B94071D3AEECA96DBC5D9B7 /* SPPermissionStyle.swift */,
+				06F9BF491A2CA725B475B1B9C8115AA4 /* SPPermissionStyleAnimation.swift */,
+				591CD2C436B2B38375AF7BBB306FC21C /* SPPermissionStyleColors.swift */,
+				A7AD3565E34E1A1CAEA4891D7EF9B3DC /* SPPermissionStyleDelay.swift */,
+				12E23D99E707ED5BB3534D1FC5429ABE /* SPPermissionStyleOrientation.swift */,
+				2C9CE86B7E66CFE97A414B22014EF512 /* SPPermissionStyleShadow.swift */,
+				D61DF932C9038A45F8CEB893F4B9C58E /* SPPermissionType.swift */,
+				13986A71B0F1E10C34FDD859B6A0E3CF /* SPRequestPermissionLocationHandler.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				72BB020FCDCFEA8567C0111297A0F27F /* Pods */,
+				098CEA25DF6E75E4ED7784DA65D8A392 /* Products */,
+				0DF58821748AB58E47F3B4E05642EE89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42A792F20904157C32245B757329C56E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F5C86EDD7B66CFD022246DC2410080 /* SPPermission-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC01ED68E435CD916D80447C754B095 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB627F2FE3E74F0CB8B24F9A785ED91 /* Pods-ApplicationPermission-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07580C9DA7C703BD8A6E8B28DDCAEE9B /* Pods-ApplicationPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9004DC272107D41CAEC487DBB86E8B3C /* Build configuration list for PBXNativeTarget "Pods-ApplicationPermission" */;
+			buildPhases = (
+				BEC01ED68E435CD916D80447C754B095 /* Headers */,
+				910E91042BBCFA439E57F42DABA0A5CA /* Sources */,
+				4496F2A536E5E869305CE6D18ADF7F69 /* Frameworks */,
+				BBD012C9B02C7DD05CCCE01251EE869C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C9F4F8016E9FC56CC60C6FA574092F /* PBXTargetDependency */,
+			);
+			name = "Pods-ApplicationPermission";
+			productName = "Pods-ApplicationPermission";
+			productReference = 4C963DAE1782544AE814B49B5B983D4E /* Pods_ApplicationPermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3298F3CA0DE482AFE70B9293215F6109 /* SPPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4DE0FB7D0E8FB7890AC25F17226BA0 /* Build configuration list for PBXNativeTarget "SPPermission" */;
+			buildPhases = (
+				42A792F20904157C32245B757329C56E /* Headers */,
+				77F726612532D0239AC36FB3457CB2DA /* Sources */,
+				2B70D4656D8E2F8946A08EBD71B44F3B /* Frameworks */,
+				A542730BF0CEE5DF3BFDA1E4AEC157D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPPermission;
+			productName = SPPermission;
+			productReference = 9D7E6770F490335D0C4EA33EBF42CEBB /* SPPermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 098CEA25DF6E75E4ED7784DA65D8A392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07580C9DA7C703BD8A6E8B28DDCAEE9B /* Pods-ApplicationPermission */,
+				3298F3CA0DE482AFE70B9293215F6109 /* SPPermission */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A542730BF0CEE5DF3BFDA1E4AEC157D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD012C9B02C7DD05CCCE01251EE869C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F726612532D0239AC36FB3457CB2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA2022E5E6607DF535DD7BACFD5BE47 /* SPPermission-dummy.m in Sources */,
+				1055380E3B395B821B037C3A5C677D2C /* SPPermission.swift in Sources */,
+				E2158DBB1BA9F0A770E37C804C654022 /* SPPermissionActionButton.swift in Sources */,
+				8AF12C32F4DD46A13D531F9506388344 /* SPPermissionBlurView.swift in Sources */,
+				67DD6389194569E92DBE747B79427EA9 /* SPPermissionCalendar.swift in Sources */,
+				D3213087BB38EFD69AE857902C2AFFC4 /* SPPermissionCamera.swift in Sources */,
+				BAED7F7EE942762F6519E3DAF3CAE2D7 /* SPPermissionCloseButton.swift in Sources */,
+				0EA86D9F5FF39F00A817213703B3A80B /* SPPermissionCloseIconView.swift in Sources */,
+				45752AEE382E98A9FB0735D7139175E6 /* SPPermissionContacts.swift in Sources */,
+				3B030E9B46EBDA5F0A4311209E5A7BB1 /* SPPermissionDialog.swift in Sources */,
+				0CC06AAE66DF334E16C2EDA109373BD5 /* SPPermissionDialogController.swift in Sources */,
+				0746A588F7634599DB8769CFC24CB0A7 /* SPPermissionDialogView.swift in Sources */,
+				E3E805008D9B611D745F2EB4DD59C124 /* SPPermissionDraw.swift in Sources */,
+				D3C22172844618D0825BA664681B9A3A /* SPPermissionDrawIconPack.swift in Sources */,
+				C2E2106F5019BC1BCBCE46733CD8C13B /* SPPermissionDrawPermissionPack.swift in Sources */,
+				0B08B55293D8EDDE6738E9AC764C5CFC /* SPPermissionIconView.swift in Sources */,
+				0EE4F96CA0E36B56EEC978D276E06271 /* SPPermissionLocation.swift in Sources */,
+				C1B792DDC2A498BD6144346A1E619FB2 /* SPPermissionMediaLibrary.swift in Sources */,
+				5B1FAD93AEAC0AB34DD353195F7D90F5 /* SPPermissionMicrophone.swift in Sources */,
+				D3651757505BD0FC67BD2227E241A58E /* SPPermissionMotion.swift in Sources */,
+				6B2DA96CA3EF49361F8DFD8DE1985C7C /* SPPermissionNotification.swift in Sources */,
+				37DA9A058794FD10BF5CB05B6413D9AA /* SPPermissionPhotoLibrary.swift in Sources */,
+				991AF7634337EADD2767295012C78EA6 /* SPPermissionReminders.swift in Sources */,
+				F18D06AE9BAD85A9709618B48B1D954F /* SPPermissionSpeech.swift in Sources */,
+				65272C473574C6CCA1612BD6DD0C44B7 /* SPPermissionStyle.swift in Sources */,
+				05ED4E712F8C3F13D3E3F53516890E6A /* SPPermissionStyleAnimation.swift in Sources */,
+				B08C385A8606A64B603878F95BD03D96 /* SPPermissionStyleColors.swift in Sources */,
+				9A2ACEBAED2914670CBCE0AA19EFA7DB /* SPPermissionStyleDelay.swift in Sources */,
+				C7D1DA28BAAC693CAD0B6AADCB934EBA /* SPPermissionStyleOrientation.swift in Sources */,
+				B77566E59C5AA7BAC9D698B6207624FB /* SPPermissionStyleShadow.swift in Sources */,
+				B6C56D0DD7CED51E89A0611411834D2C /* SPPermissionType.swift in Sources */,
+				020F8F9D34591354400B7569A01F6247 /* SPRequestPermissionLocationHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910E91042BBCFA439E57F42DABA0A5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36089278CC50F895727D38A1C5E3F3D4 /* Pods-ApplicationPermission-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C9F4F8016E9FC56CC60C6FA574092F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPPermission;
+			target = 3298F3CA0DE482AFE70B9293215F6109 /* SPPermission */;
+			targetProxy = 0A8F1E9A2B79A89C06C2BCF3D87BAF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E1BEFBC353CD743314DB51A0853B240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B2C17B3685812652362F2725E06383 /* SPPermission.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPermission/SPPermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPPermission/SPPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPPermission/SPPermission.modulemap";
+				PRODUCT_MODULE_NAME = SPPermission;
+				PRODUCT_NAME = SPPermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BD103EBE2567F47BDFD7742A12E332A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA3521354DFDE56D0D8667FD4E84113 /* Pods-ApplicationPermission.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ApplicationPermission/Pods-ApplicationPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApplicationPermission/Pods-ApplicationPermission.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		357EDBEE5616A2FC42E499651B21500C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6F47F97C6FC2385B0BE91901B9988E /* Pods-ApplicationPermission.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ApplicationPermission/Pods-ApplicationPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApplicationPermission/Pods-ApplicationPermission.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDBAC50C1B2D21600BEAB86DEC7E1255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949B3845ABC133EA64E15A885CE93794 /* SPPermission.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPermission/SPPermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPPermission/SPPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPPermission/SPPermission.modulemap";
+				PRODUCT_MODULE_NAME = SPPermission;
+				PRODUCT_NAME = SPPermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4DE0FB7D0E8FB7890AC25F17226BA0 /* Build configuration list for PBXNativeTarget "SPPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBAC50C1B2D21600BEAB86DEC7E1255 /* Debug */,
+				1E1BEFBC353CD743314DB51A0853B240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9004DC272107D41CAEC487DBB86E8B3C /* Build configuration list for PBXNativeTarget "Pods-ApplicationPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357EDBEE5616A2FC42E499651B21500C /* Debug */,
+				2BD103EBE2567F47BDFD7742A12E332A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

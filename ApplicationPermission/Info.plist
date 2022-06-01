@@ -62,5 +62,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This applicatin used to camera description.</string>
+    
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string> This applicatin used to photos description.</string>
+    
+    <key> NSLocationWhenInUseUsageDescription</key>
+    <string>$(PRODUCT_NAME) location description.</string>
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>${PRODUCT_NAME} Microphone Usage</string>
 </dict>
 </plist>
